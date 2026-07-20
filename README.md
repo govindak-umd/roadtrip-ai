@@ -22,3 +22,17 @@ You should then see a successful test run as follows:
     
     ================================================= 1 passed in 12.20s ==================================================
     (roadtrip-ai) govindajithkumar@Mac roadtrip-ai % 
+
+
+Now to access the swagger page:
+
+    (roadtrip-ai) govindajithkumar@Mac roadtrip-ai % uv run uvicorn backend.app.main:app --reload
+
+and go to:
+
+http://127.0.0.1:8000/docs#/
+
+    
+
+
+
